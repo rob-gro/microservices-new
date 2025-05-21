@@ -67,9 +67,7 @@ public class OrderService {
         } finally {
             inventoryServiceLookup.end();
         }
-
-
-    }
+     }
 
     private OrderLineItems mapToDto(OrderLineItemsDto orderLineItemsDto) {
         OrderLineItems orderLineItems = new OrderLineItems();
