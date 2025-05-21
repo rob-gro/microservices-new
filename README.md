@@ -25,7 +25,7 @@ The system is built as a set of interconnected microservices:
 ```
 ┌─────────────────┐     ┌─────────────────┐
 │                 │     │                 │
-│   API Gateway   │────▶│ Discovery Server│
+│   API Gateway   │───▶│ Discovery Server│
 │                 │     │     (Eureka)    │
 └────────┬────────┘     └─────────────────┘
          │
@@ -33,7 +33,7 @@ The system is built as a set of interconnected microservices:
          ▼
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │                 │     │                 │     │                 │
-│ Product Service │◀───▶│  Order Service  │────▶│Inventory Service│
+│ Product Service │◀──▶│  Order Service  │───▶│Inventory Service│
 │   (MongoDB)     │     │    (MySQL)      │     │    (MySQL)      │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
 ```

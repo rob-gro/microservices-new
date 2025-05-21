@@ -4,7 +4,7 @@
     <data-source source="LOCAL" name="inventory-service" uuid="5253658b-8e3b-44ec-9ed5-70bd55b3b3af">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
@@ -13,7 +13,7 @@
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>Hibernate</remarks>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/order-service</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
@@ -22,7 +22,7 @@
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>Hibernate</remarks>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/inventory-service</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
